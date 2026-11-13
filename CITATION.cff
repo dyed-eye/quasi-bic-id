@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "quasi-bic-id: automated identification of quasi-BIC modes in disordered resonator chains"
+license: GPL-3.0-only
+authors:
+  - family-names: Porvatov
+    given-names: Vadim A.
+  - family-names: Semushev
+    given-names: Kliment V.
+  - family-names: Nazarov
+    given-names: Ravshanjon Kh.
+  - family-names: Vlasov
+    given-names: Nikolai A.
+  - family-names: Solomonov
+    given-names: Alexander I.
+  - family-names: Kondratenko
+    given-names: Zarina F.
+  - family-names: Maslova
+    given-names: Ekaterina E.
+    email: ekaterina.maslova@metalab.ifmo.ru
+preferred-citation:
+  type: article
+  title: "Automated identification of quasi-BIC modes in disordered resonator chains using spatial field envelopes and resonance descriptors"
+  authors:
+    - family-names: Porvatov
+      given-names: Vadim A.
+    - family-names: Semushev
+      given-names: Kliment V.
+    - family-names: Nazarov
+      given-names: Ravshanjon Kh.
+    - family-names: Vlasov
+      given-names: Nikolai A.
+    - family-names: Solomonov
+      given-names: Alexander I.
+    - family-names: Kondratenko
+      given-names: Zarina F.
+    - family-names: Maslova
+      given-names: Ekaterina E.
+  year: 2026
+  doi: "10.48550/arXiv.2610.37967"
+  url: "https://arxiv.org/abs/2610.37967"

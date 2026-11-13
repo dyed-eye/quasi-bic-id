@@ -1,0 +1,9 @@
+% Model:              Untitled.mph
+% Version:            COMSOL 6.0.0.318
+% Date:               Sep 8 2023, 14:15
+% Dimension:          0
+% Nodes:              1
+% Expressions:        16
+% Description:        Frequency, Quality factor
+% freq (Hz) @ lambda=1                             ewfd2.Qfactor (1) @ lambda=1 freq (Hz) @ lambda=2                              ewfd2.Qfactor (1) @ lambda=2 freq (Hz) @ lambda=3                              ewfd2.Qfactor (1) @ lambda=3 freq (Hz) @ lambda=4                              ewfd2.Qfactor (1) @ lambda=4 freq (Hz) @ lambda=5                              ewfd2.Qfactor (1) @ lambda=5 freq (Hz) @ lambda=6                              ewfd2.Qfactor (1) @ lambda=6 freq (Hz) @ lambda=7                              ewfd2.Qfactor (1) @ lambda=7 freq (Hz) @ lambda=8                              ewfd2.Qfactor (1) @ lambda=8
+2.211390246916141E9+931424.4495062497i             1187.1012448129338       2.2140593476700807E9+885865.5336367112i           1249.658815927054        2.215696307170831E9+682587.803684569i             1623.0119372267075       2.215968412396019E9+582619.2759335878i            1901.7294002547          2.2180586175609345E9+362751.0813340305i           3057.27361225767         2.219121169182161E9+332572.7956844008i            3336.2938850957976       2.2201804112146697E9+323671.55053004925i          3429.68111899064         2.2208942540936337E9+259868.35090044676i          4273.11414875688

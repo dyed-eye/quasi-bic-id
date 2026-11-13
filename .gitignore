@@ -1,0 +1,6 @@
+data/*.npz
+data/*.part
+/raw/
+__pycache__/
+.pytest_cache/
+.venv/
