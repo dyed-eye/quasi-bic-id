@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code or data, please cite the paper below."
 title: "quasi-bic-id: automated identification of quasi-BIC modes in disordered resonator chains"
 license: GPL-3.0-only
+repository-code: "https://github.com/dyed-eye/quasi-bic-id"
 authors:
   - family-names: Porvatov
     given-names: Vadim A.
