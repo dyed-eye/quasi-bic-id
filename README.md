@@ -60,7 +60,7 @@ $H_y$ along the bar axis for GST.
 | Key | Shape | Meaning |
 |---|---|---|
 | `E_abs` | `[N, 1883]` float32 | upper envelope of $\lvert E(z)\rvert$ along the inner line cut, divided by its own peak |
-| `E_Re`, `E_Im` | `[N, 1883]` float32 | unsigned envelopes of $\operatorname{Re}E$ and $\operatorname{Im}E$, same divisor (chain: envelope of the signed part, clamped at 0; GST: envelope of $\lvert\operatorname{Re}E\rvert$, $\lvert\operatorname{Im}E\rvert$) |
+| `E_Re`, `E_Im` | `[N, 1883]` float32 | unsigned envelopes of $\mathrm{Re}\thinspace E$ and $\mathrm{Im}\thinspace E$, same divisor (chain: envelope of the signed part, clamped at 0; GST: envelope of $\lvert\mathrm{Re}\thinspace E\rvert$, $\lvert\mathrm{Im}\thinspace E\rvert$) |
 | `norm_max` | `[N]` | the divisor: peak of the $\lvert E\rvert$ envelope in solver units (V/m for the chain, A/m for GST) |
 | `meta` | `[N, 7]` | `sigma` (disorder, %), `quality` ($Q$), `freq_re`, `freq_im` (Hz), `meta_id` (mode index in its realization), `iter` (realization), `target` |
 | `x_grid`, `dx` | `[1883]`, scalar | uniform grid along the structure, m (GST: each realization is stretched over the grid; `x_grid` uses the median structure length) |
@@ -92,7 +92,7 @@ print(quality[group], target[group])
 the line cut (`cut1.txt` for the chain, `cutline_inside.txt` for GST, one complex column per mode) and
 `out.txt` (complex eigenfrequency and Q of every mode). For each mode it:
 
-1. takes the upper envelope of $|E|$, $\operatorname{Re}E$, $\operatorname{Im}E$ (straight lines between local maxima, no smoothing; the chain
+1. takes the upper envelope of $|E|$, $\mathrm{Re}\thinspace E$, $\mathrm{Im}\thinspace E$ (straight lines between local maxima, no smoothing; the chain
    and GST recipes differ slightly, see the docstring at the top of `build_dataset.py`);
 2. puts it on the common grid of 1883 points;
 3. divides by the peak of the $|E|$ envelope;
